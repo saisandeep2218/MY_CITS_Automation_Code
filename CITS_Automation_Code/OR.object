@@ -1,0 +1,54 @@
+<Root type="OR" ref="CITS_Automation_Code">
+  <Page title="Facebook – log in or sign up" ref="Facebook">
+    <ObjectGroup ref="Email address or phone number">
+      <Object frame="" ref="Email address or phone number">
+        <Property value="email" ref="name" pref="1"/>
+        <Property value="email" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Email address or phone number']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div[2]/div/div/div/div/div[2]/div/div/form/div/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="inputtext _55r1 _6luy" ref="class" pref="6"/>
+        <Property value="#email" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password">
+      <Object frame="" ref="Password">
+        <Property value="pass" ref="name" pref="1"/>
+        <Property value="pass" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/div/div/div/div/div[2]/div/div/form/div/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="inputtext _55r1 _6luy" ref="class" pref="6"/>
+        <Property value="#pass" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Log In">
+      <Object frame="" ref="Log In">
+        <Property value="login" ref="name" pref="1"/>
+        <Property value="u_0_f" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//button[@value='1']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/div/div/div/div/div[2]/div/div/form/div[2]/button" ref="xpath" pref="5"/>
+        <Property value="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy" ref="class" pref="6"/>
+        <Property value="#u_0_f" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Log in to Facebook" ref="Log">
+    <ObjectGroup ref="The password that you've enter">
+      <Object frame="" ref="The password that you've enter">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//form/div/div/div[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/div/div/div[2]/div[2]/form/div/div/div[2]" ref="xpath" pref="5"/>
+        <Property value="_9ay7" ref="class" pref="6"/>
+        <Property value="div._9ay7" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

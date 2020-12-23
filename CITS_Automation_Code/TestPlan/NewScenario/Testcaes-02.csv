@@ -1,0 +1,15 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://www.facebook.com/,,
+2,Email address or phone number,"Click the [<Object>] ",Click,,,Facebook
+3,Email address or phone number,Enter the value [<Data>] in the Field [<Object>],Set,@saisundeepbandaru@gmail.com,,Facebook
+4,Password,"Click the [<Object>] ",Click,,,Facebook
+5,Password,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@6yl/XVqUcnsCFFtrIG7/rw== Enc,,Facebook
+6,Log In,"Click the [<Object>] ",Click,,,Facebook
+7,The password that you've enter,Assert if [<Object>]'s Text Equals [<Data>],assertElementTextEquals,@The password that you've entered is incorrect. Forgotten password?,,Log
+8,Browser,Open the Url [<Data>] in the Browser,Open,@https://www.facebook.com/,,
+9,Email address or phone number,"Click the [<Object>] ",Click,,,Facebook
+10,Email address or phone number,Enter the value [<Data>] in the Field [<Object>],Set,@saisundeepbandaru@gmail.com,,Facebook
+11,Password,"Click the [<Object>] ",Click,,,Facebook
+12,Password,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@6yl/XVqUcnsCFFtrIG7/rw== Enc,,Facebook
+13,Log In,"Click the [<Object>] ",Click,,,Facebook
+14,The password that you've enter,Assert if [<Object>]'s Text Equals [<Data>],assertElementTextEquals,@The password that you've entered is incorrect. Forgotten password?,,Log
